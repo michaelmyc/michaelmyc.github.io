@@ -1,0 +1,63 @@
+<!doctype html><html lang=en><head>
+<title>Michael Mao - Series</title>
+<meta name=title content="Michael Mao - Series">
+<link rel=icon href=/favicon.ico type=image/x-icon>
+<meta name=description content="I am Michael Mao, a software engineer and a machine learning enthusiast. This is my blog where I write about everything from technical content to random musings.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://michaelmao.me/series/">
+<meta property="og:title" content="Michael Mao - Series">
+<meta property="og:description" content="I am Michael Mao, a software engineer and a machine learning enthusiast. This is my blog where I write about everything from technical content to random musings.">
+<meta property="og:image" content="/assets/cover.webp">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://michaelmao.me/series/">
+<meta property="twitter:title" content="Michael Mao - Series">
+<meta property="twitter:description" content="I am Michael Mao, a software engineer and a machine learning enthusiast. This is my blog where I write about everything from technical content to random musings.">
+<meta property="twitter:image" content="/assets/cover.webp">
+<link rel=stylesheet href=https://michaelmao.me/scss/main.min.css>
+<script defer src=https://kit.fontawesome.com/13bff49e18.js crossorigin=anonymous></script>
+<script>const maxHeaderHeight=160,minHeaderHeight=80;window.onscroll=function(){(document.body.scrollTop<=maxHeaderHeight||document.documentElement.scrollTop<=maxHeaderHeight)&&(scrollHeight=Math.min(Math.max(document.body.scrollTop,document.documentElement.scrollTop),maxHeaderHeight),headerHeight=minHeaderHeight+(maxHeaderHeight-minHeaderHeight)*(maxHeaderHeight-scrollHeight)/maxHeaderHeight,document.querySelectorAll("header>div.widescreen")[0].style.height=`${headerHeight}px`)}</script>
+<script>window.onhashchange=function(){var b=document.body,a=document.documentElement,c=Math.max(b.scrollHeight,b.offsetHeight,a.clientHeight,a.scrollHeight,a.offsetHeight),d=c-window.innerHeight,e=Math.max(b.scrollTop,a.scrollTop);window.location.hash&&Math.abs(d-e)>1&&(document.documentElement.scrollTop-=80,document.body.scrollTop-=80)}</script>
+</head><body><header>
+<div class=widescreen>
+<a href=/ class=header-title>Michael Mao</a>
+<nav>
+<a href=/>Home</a>
+<a href=/blog>Blog</a>
+<a href=/series>Series</a>
+<a href=/contact>Contact</a>
+</nav>
+</div>
+<div class=mobile>
+<div class=burger-icon-container>
+<div id=burger-icon>
+<div></div>
+<div class=burger-icon-middle></div>
+<div></div>
+</div>
+</div>
+<nav id=burger-menu>
+<a href=/>Home</a>
+<a href=/blog>Blog</a>
+<a href=/series>Series</a>
+<a href=/contact>Contact</a>
+</nav>
+<div id=burger-mask></div>
+</div>
+<script>function preventScroll(a){return a.preventDefault(),a.stopPropagation(),!1}function toggleMenu(){const a=!document.getElementById("burger-menu").classList.contains("open-menu");document.getElementById("burger-menu").classList.toggle("open-menu"),document.getElementById("burger-mask").classList.toggle("apply-mask"),a?(document.getElementById("burger-mask").addEventListener("wheel",preventScroll),document.getElementById("burger-mask").addEventListener("touchmove",preventScroll),document.getElementById("burger-menu").addEventListener("wheel",preventScroll),document.getElementById("burger-menu").addEventListener("touchmove",preventScroll),document.querySelectorAll("header>div.mobile")[0].addEventListener("wheel",preventScroll),document.querySelectorAll("header>div.mobile")[0].addEventListener("touchmove",preventScroll)):(document.getElementById("burger-mask").removeEventListener("wheel",preventScroll),document.getElementById("burger-mask").removeEventListener("touchmove",preventScroll),document.getElementById("burger-menu").removeEventListener("wheel",preventScroll),document.getElementById("burger-menu").removeEventListener("touchmove",preventScroll),document.querySelectorAll("header>div.mobile")[0].removeEventListener("wheel",preventScroll),document.querySelectorAll("header>div.mobile")[0].removeEventListener("touchmove",preventScroll))}document.getElementById("burger-icon").addEventListener("click",toggleMenu),document.getElementById("burger-mask").addEventListener("click",toggleMenu)</script>
+</header><div id=content>
+<h1>Series</h1>
+<link rel=stylesheet href=https://michaelmao.me/scss/pages/list.min.css>
+<div class=list-container>
+<div class=list-item>
+<div class=list-title-line>
+<h3><a href=/series/sample-series/>Sample Series</a></h3>
+<h3 class=list-detail>0 Article</h3>
+</div>
+<p>This is a sample series</p>
+</div>
+</div>
+</div><footer>
+<span>©0001 - Michael (Yicong) Mao</span>
+<span>Powered by <a href=https://gohugo.io target=_blank rel=noopener>Hugo</a></span>
+</footer></body>
+</html>
