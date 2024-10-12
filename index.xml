@@ -1,11 +1,201 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Michael Mao</title><link>https://michaelmao.me/</link><description>Recent content in Home on Michael Mao</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jun 2023 13:09:28 -0700</lastBuildDate><atom:link href="https://michaelmao.me/index.xml" rel="self" type="application/rss+xml"/><item><title>HUSTL</title><link>https://michaelmao.me/project/hustl/</link><pubDate>Wed, 14 Jun 2023 13:09:28 -0700</pubDate><guid>https://michaelmao.me/project/hustl/</guid><description>Hyperlapse processed with HUSTL
-Links: GitHub Repo, Project Writeup Members: Michael Mao, Jiaju Ma, James Li Duration: Spring 2019
-Overview Making good hyperlapse videos is difficult. It usually requires photographers to take photos between consistent distance intervals and keep the height of the camera and the direction of the lens steady and smooth. Alternatively, they can mount their camera on expensive steadicams or gimbals. To make creating high-quality hyperlapses easier, we present HUSTL (Hyper-Ultra-Super-Time-Lapse), an open source three-stage software pipeline based on the state of the art academic research papers.</description></item><item><title>Californian Milky Way</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Personal Website</title><link>https://michaelmao.me/project/personal-website/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/project/personal-website/</guid><description>Home page layout
-Links: GitHub Repo, Example Blogpost
-Overview This personal website is made from scratch using Hugo framework. The color scheme is inspired by Nord theme and all code blocks uses Nord color scheme. The website is responsive and is designed for both mobile and desktop, and supports both vertical and horizontal screen orientations.
-Home Page and Blogging The website offers a customizable home page or landing page to suit the need of different users.</description></item><item><title>Glacier at Dusk</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Autumnal Mt. Baker</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Last Rays of Sun</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Crows in North Cascades</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Waves at Thor's Well</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Rainier After Rain</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Going to the Sun</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>OKAI</title><link>https://michaelmao.me/project/okai/</link><pubDate>Wed, 14 Jun 2023 13:09:25 -0700</pubDate><guid>https://michaelmao.me/project/okai/</guid><description>OKAI viewed on multiple devices
-Links: website Members: Jiaju Ma, Michael Mao, Yimei Hu Duration: Sep 2018 - May 2019 Pageviews: 160k+ Users: 38k+
-Overview OKAI is an interactive introduction to Artificial Intelligence (AI). The project aims to demystify and introduce machine learning and deep learning concepts to a broader audience with limited or no background in computer science. It utilizes web-based interactive graphics and animations to visualize the working principles of a simple feed-forward neural net classifier on the MNIST dataset.</description></item><item><title>Example Blogpost</title><link>https://michaelmao.me/blog/example-blogpost/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/blog/example-blogpost/</guid><description>Example Text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Pharetra convallis posuere morbi leo urna molestie at. Elementum nibh tellus molestie nunc non blandit massa. Penatibus et magnis dis parturient montes. Adipiscing commodo elit at imperdiet dui accumsan sit. Venenatis urna cursus eget nunc scelerisque viverra mauris. Vulputate enim nulla aliquet porttitor. Tellus at urna condimentum mattis pellentesque id nibh.</description></item><item><title>DeepSqueeze: Deep Semantic Compression for Tabular Data</title><link>https://michaelmao.me/publication/deepsqueeze/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://michaelmao.me/publication/deepsqueeze/</guid><description>Deepsqueeze architecture
-Abstract With the rapid proliferation of large datasets, efficient data compression has become more important than ever. Columnar compression techniques (e.g., dictionary encoding, runlength encoding, delta encoding) have proved highly effective for tabular data, but they typically compress individual columns without considering potential relationships among columns, such as functional dependencies and correlations. Semantic compression techniques, on the other hand, are designed to leverage such relationships to store only a subset of the columns necessary to infer the others, but existing approaches cannot effectively identify complex relationships across more than a few columns at a time.</description></item><item><title>About</title><link>https://michaelmao.me/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://michaelmao.me/about/</guid><description>My name is Michael Mao. I am currently an algorithm engineer at Shukun Technology developing AI algorithms and foundational models for medical imaging and other medical purposes.
-My research interest lies mainly in natural language processing, computer vision, multi-modal learning, and their medical applications. You can learn more about what motivates me in my mission page.
-In my free time, I enjoy photography, visiting museums, visiting places of man-made and natural beauty, and tinkering with 3D printing technologies.</description></item><item><title>Mission</title><link>https://michaelmao.me/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://michaelmao.me/mission/</guid><description>Work In Progress</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Michael Mao</title><link>https://michaelmao.me/</link><description>Recent content in Home on Michael Mao</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jun 2023 13:09:28 -0700</lastBuildDate><atom:link href="https://michaelmao.me/index.xml" rel="self" type="application/rss+xml"/><item><title>HUSTL</title><link>https://michaelmao.me/project/hustl/</link><pubDate>Wed, 14 Jun 2023 13:09:28 -0700</pubDate><guid>https://michaelmao.me/project/hustl/</guid><description>&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ &lt;video playsinline="" autoplay="" loop="" muted="" class="dynamic-image " src="https://michaelmao.me/project/hustl/hustl.mp4" />
+ 
+ &lt;/picture>
+
+ 
+ &lt;p class="dark">Hyperlapse processed with HUSTL&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;p>Links: 
+
+
+ &lt;a href="https://github.com/michaelmyc/hustl"
+ target="_blank"
+ rel="noopener"
+ >GitHub Repo&lt;/a>, 
+
+
+ &lt;a href="hustl-writeup.pdf"
+ target="_blank"
+ rel="noopener"
+ >Project Writeup&lt;/a> &lt;br>
+Members: Michael Mao, Jiaju Ma, James Li &lt;br>
+Duration: Spring 2019&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Making good hyperlapse videos is difficult. It usually requires photographers to take photos between consistent distance intervals and keep the height of the camera and the direction of the lens steady and smooth. Alternatively, they can mount their camera on expensive steadicams or gimbals. To make creating high-quality hyperlapses easier, we present HUSTL (Hyper-Ultra-Super-Time-Lapse), an open source three-stage software pipeline based on the state of the art academic research papers. Our tool allows users to only provide rough hand-held hyperlapse frames to create a smoothed hyperlapse video.&lt;/p></description></item><item><title>Californian Milky Way</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Personal Website</title><link>https://michaelmao.me/project/personal-website/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/project/personal-website/</guid><description>&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/project/personal-website/website-tall_hu9352223649365893249.png>
+ &lt;source media="(min-width:800px)" srcset=/project/personal-website/website-tall_hu17682187529944626116.png>
+ &lt;source media="(min-width:1200px)" srcset=/project/personal-website/website-tall_hu2340506666837281248.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/project/personal-website/website-tall.png"
+ alt='Home page layout'
+ loading="lazy"
+ width="3576"
+ style="aspect-ratio: 3576/1074;"
+ />
+ 
+ &lt;/picture>
+
+ 
+ &lt;p class="dark">Home page layout&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;p>Links: 
+
+
+ &lt;a href="https://github.com/michaelmyc/michaelmao.me"
+ target="_blank"
+ rel="noopener"
+ >GitHub Repo&lt;/a>, 
+
+
+ &lt;a href="https://michaelmao.me/blog/example-blogpost">Example Blogpost&lt;/a>&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This personal website is made from scratch using 
+
+
+ &lt;a href="https://gohugo.io/"
+ target="_blank"
+ rel="noopener"
+ >Hugo&lt;/a> framework. The color scheme is inspired by 
+
+
+ &lt;a href="https://www.nordtheme.com/"
+ target="_blank"
+ rel="noopener"
+ >Nord theme&lt;/a> and all code blocks uses Nord color scheme. The website is responsive and is designed for both mobile and desktop, and supports both vertical and horizontal screen orientations.&lt;/p>
+&lt;h3 id="home-page-and-blogging">Home Page and Blogging&lt;/h3>
+&lt;p>The website offers a customizable home page or landing page to suit the need of different users.&lt;/p></description></item><item><title>Glacier at Dusk</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Autumnal Mt. Baker</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Last Rays of Sun</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Crows in North Cascades</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Waves at Thor's Well</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Rainier After Rain</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Going to the Sun</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>OKAI</title><link>https://michaelmao.me/project/okai/</link><pubDate>Wed, 14 Jun 2023 13:09:25 -0700</pubDate><guid>https://michaelmao.me/project/okai/</guid><description>&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/project/okai/okai_landing_hu17100218571462347712.png>
+ &lt;source media="(min-width:800px)" srcset=/project/okai/okai_landing_hu10479778416492314158.png>
+ &lt;source media="(min-width:1200px)" srcset=/project/okai/okai_landing_hu11387528375661967150.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/project/okai/okai_landing.png"
+ alt='OKAI viewed on multiple devices'
+ loading="lazy"
+ width="2542"
+ style="aspect-ratio: 2542/1630;"
+ />
+ 
+ &lt;/picture>
+
+ 
+ &lt;p class="dark">OKAI viewed on multiple devices&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;p>Links: 
+
+
+ &lt;a href="https://okai.brown.edu"
+ target="_blank"
+ rel="noopener"
+ >website&lt;/a> &lt;br>
+Members: 
+
+
+ &lt;a href="https://majiaju.io"
+ target="_blank"
+ rel="noopener"
+ >Jiaju Ma&lt;/a>, Michael Mao, 
+
+
+ &lt;a href="http://yimeihu.com/"
+ target="_blank"
+ rel="noopener"
+ >Yimei Hu&lt;/a> &lt;br>
+Duration: Sep 2018 - May 2019 &lt;br>
+Pageviews: 160k+ &lt;br>
+Users: 38k+&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>OKAI is an interactive introduction to Artificial Intelligence (AI). The project aims to demystify and introduce machine learning and deep learning concepts to a broader audience with limited or no background in computer science. It utilizes web-based interactive graphics and animations to visualize the working principles of a simple feed-forward neural net classifier on the MNIST dataset.&lt;/p></description></item><item><title>Example Blogpost</title><link>https://michaelmao.me/blog/example-blogpost/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/blog/example-blogpost/</guid><description>&lt;h2 id="example-text">Example Text&lt;/h2>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Pharetra convallis posuere morbi leo urna molestie at. Elementum nibh tellus molestie nunc non blandit massa. Penatibus et magnis dis parturient montes. Adipiscing commodo elit at imperdiet dui accumsan sit. Venenatis urna cursus eget nunc scelerisque viverra mauris. Vulputate enim nulla aliquet porttitor. Tellus at urna condimentum mattis pellentesque id nibh. Senectus et netus et malesuada fames ac turpis egestas maecenas. Pellentesque adipiscing commodo elit at. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Habitant morbi tristique senectus et netus et. Quam adipiscing vitae proin sagittis nisl. Vel pretium lectus quam id leo in.&lt;/p></description></item><item><title>DeepSqueeze: Deep Semantic Compression for Tabular Data</title><link>https://michaelmao.me/project/deepsqueeze/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://michaelmao.me/project/deepsqueeze/</guid><description>&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu7488846794575881962.png>
+ &lt;source media="(min-width:800px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu4322405573467143788.png>
+ &lt;source media="(min-width:1200px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu17205057978315782226.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/project/deepsqueeze/deepsqueeze-tall.png"
+ alt='Deepsqueeze architecture'
+ loading="lazy"
+ width="2482"
+ style="aspect-ratio: 2482/980;"
+ />
+ 
+ &lt;/picture>
+
+ 
+ &lt;p class="dark">Deepsqueeze architecture&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>With the rapid proliferation of large datasets, efficient data compression has become more important than ever. Columnar compression techniques (e.g., dictionary encoding, runlength encoding, delta encoding) have proved highly effective for tabular data, but they typically compress individual columns without considering potential relationships among columns, such as functional dependencies and correlations. Semantic compression techniques, on the other hand, are designed to leverage such relationships to store only a subset
+of the columns necessary to infer the others, but existing approaches cannot effectively identify complex relationships
+across more than a few columns at a time.&lt;/p></description></item><item><title>About</title><link>https://michaelmao.me/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://michaelmao.me/about/</guid><description>&lt;p>My name is Michael Mao. I am currently an algorithm engineer at 
+
+
+ &lt;a href="https://en.shukun.net/"
+ target="_blank"
+ rel="noopener"
+ >Shukun Technology&lt;/a> developing AI algorithms and foundational models for medical imaging and other medical purposes.&lt;/p>
+&lt;p>My research interest lies mainly in natural language processing, computer vision, multi-modal learning, and their medical applications. You can learn more about what motivates me in my 
+
+
+ &lt;a href="https://michaelmao.me/mission">mission page&lt;/a>.&lt;/p>
+&lt;p>In my free time, I enjoy photography, visiting museums, visiting places of man-made and natural beauty, and tinkering with 3D printing technologies. I am especially fascinated by landscape photography and street photography. You can check out some of my photography works in my 
+
+
+ &lt;a href="https://michaelmao.me/photography">photography page&lt;/a>.&lt;/p></description></item><item><title>Mission</title><link>https://michaelmao.me/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://michaelmao.me/mission/</guid><description>&lt;p>Work In Progress&lt;/p></description></item></channel></rss>
