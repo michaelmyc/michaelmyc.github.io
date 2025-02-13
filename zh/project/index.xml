@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Michael Mao</title><link>https://michaelmao.me/zh/project/</link><description>Recent content in Projects on Michael Mao</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 14 Jun 2023 13:09:28 -0700</lastBuildDate><atom:link href="https://michaelmao.me/zh/project/index.xml" rel="self" type="application/rss+xml"/><item><title>HUSTL</title><link>https://michaelmao.me/zh/project/hustl/</link><pubDate>Wed, 14 Jun 2023 13:09:28 -0700</pubDate><guid>https://michaelmao.me/zh/project/hustl/</guid><description>&lt;p>注：此中文版网页由大模型翻译获得&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ &lt;video playsinline="" autoplay="" loop="" muted="" class="dynamic-image " src="https://michaelmao.me/zh/project/hustl/hustl.mp4" />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">使用HUSTL处理的延时摄影&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;p>链接：
+
+
+ &lt;a href="https://github.com/michaelmyc/hustl"
+ target="_blank"
+ rel="noopener"
+ >GitHub仓库&lt;/a>, 
+
+
+ &lt;a href="hustl-writeup.pdf"
+ target="_blank"
+ rel="noopener"
+ >项目报告&lt;/a> &lt;br>
+成员：Michael Mao, Jiaju Ma, James Li &lt;br>
+时间：2019年春季&lt;/p>
+&lt;h2 id="概述">概述&lt;/h2>
+&lt;p>制作优质的延时摄影视频很困难。通常需要摄影师在固定的距离间隔拍摄照片，并保持相机高度和镜头方向的稳定和平滑。或者，他们需要将相机安装在昂贵的稳定器或云台上。为了让创建高质量延时摄影变得更容易，我们推出了HUSTL（Hyper-Ultra-Super-Time-Lapse），这是一个基于最新学术研究论文的开源三阶段软件管线。我们的工具允许用户仅提供粗略的手持延时摄影帧来创建平滑的延时摄影视频。&lt;/p>
+&lt;p>这是布朗大学
+
+
+ &lt;a href="https://cs.brown.edu/courses/info/csci1430/"
+ target="_blank"
+ rel="noopener"
+ >CS 1430计算机视觉&lt;/a>课程的课程项目，该课程由
+
+
+ &lt;a href="https://jamestompkin.com/"
+ target="_blank"
+ rel="noopener"
+ >James Tompkin教授&lt;/a>讲授。&lt;/p>
+&lt;h2 id="方法论">方法论&lt;/h2>
+&lt;p>创建高质量延时摄影视频面临3个主要挑战：&lt;/p>
+&lt;ol>
+&lt;li>某些帧可能不够理想，应该被跳过&lt;/li>
+&lt;li>帧可能具有不同的白平衡、光照条件，某些帧可能曝光过度或不足&lt;/li>
+&lt;li>需要对齐帧以确保相机运动看起来平滑&lt;/li>
+&lt;/ol>
+&lt;p>为了解决这三个主要问题，我们提出了一个三步管线：帧选择&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>、颜色匹配&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>和视频稳定&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>。&lt;/p>
+&lt;p>详细信息请参阅
+
+
+ &lt;a href="hustl-writeup.pdf"
+ target="_blank"
+ rel="noopener"
+ >项目报告&lt;/a>。&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/hustl/hustl-pipeline_hu_7d6f39481c589318.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/hustl/hustl-pipeline_hu_4d8726325ab1c712.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/hustl/hustl-pipeline_hu_dc21b23553870d1d.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/hustl/hustl-pipeline.png"
+ alt='HUSTL管线'
+ loading="lazy"
+ width="1939"
+ style="aspect-ratio: 1939/817;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">HUSTL管线&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;h2 id="演示">演示&lt;/h2>
+&lt;h3 id="faunce拱门">Faunce拱门&lt;/h3>
+&lt;script src="https://player.vimeo.com/api/player.js">&lt;/script>
+&lt;style>
+@media (orientation: landscape) {
+ .vimeo-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1em;
+ }
+}
+@media (orientation: portrait) {
+ // ipad screen
+ @media (min-aspect-ratio: 3/5) {
+ .vimeo-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1em;
+ }
+ }
+ .vimeo-grid {
+ display: grid;
+ grid-template-rows: 1fr 1fr;
+ gap: 1em;
+ }
+}
+.vimeo-container {
+ display: grid;
+ text-align: center;
+}
+&lt;/style>
+&lt;div class="vimeo-grid">
+ &lt;div class="vimeo-container">
+ &lt;div style="padding:56.25% 0 0 0;position:relative;justify-self:none;">&lt;iframe src="https://player.vimeo.com/video/335471326?h=a82fe09ee9&amp;color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>&lt;/iframe>&lt;/div>
+ &lt;p class="dark">原始视频&lt;/p></description></item><item><title>个人网站</title><link>https://michaelmao.me/zh/project/personal-website/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/zh/project/personal-website/</guid><description>&lt;p>注：此中文版网页由大模型翻译获得&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/personal-website/website-tall_hu_80df12997beb48ce.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/personal-website/website-tall_hu_6cc501cd8f70794f.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/personal-website/website-tall_hu_592d285e21a2eb1b.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/personal-website/website-tall.png"
+ alt='主页样式'
+ loading="lazy"
+ width="3576"
+ style="aspect-ratio: 3576/1074;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">主页样式&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;p>链接：
+
+
+ &lt;a href="https://github.com/michaelmyc/michaelmao.me"
+ target="_blank"
+ rel="noopener"
+ >GitHub仓库&lt;/a>，
+
+
+ &lt;a href="https://michaelmao.me/blog/example-blogpost">示例博文&lt;/a>&lt;/p>
+&lt;h2 id="概述">概述&lt;/h2>
+&lt;p>这个个人网站是使用
+
+
+ &lt;a href="https://gohugo.io/"
+ target="_blank"
+ rel="noopener"
+ >Hugo&lt;/a>框架从零开始构建的。配色方案受
+
+
+ &lt;a href="https://www.nordtheme.com/"
+ target="_blank"
+ rel="noopener"
+ >Nord主题&lt;/a>启发，所有代码块都使用Nord配色方案。网站采用响应式设计，同时适配移动端和桌面端，支持纵向和横向屏幕浏览。&lt;/p>
+&lt;h3 id="主页和博客">主页和博客&lt;/h3>
+&lt;p>网站提供可定制的主页或着陆页，以满足不同用户的需求。&lt;/p>
+&lt;p>网站还包含一个完整的博客系统，具有完善的markdown支持、分页和按日期分组、标签支持以及系列/合集支持。查看
+
+
+ &lt;a href="https://michaelmao.me/blog/example-blogpost">示例博文&lt;/a>了解已测试和支持的功能。如果需要一次性的自定义功能，markdown支持HTML混合，因此直接在markdown文件中编写HTML代码即可渲染HTML内容。&lt;/p>
+&lt;p>请注意，&amp;ldquo;系列&amp;quot;和&amp;quot;标签&amp;quot;页面不会显示仅包含隐藏博文的系列或标签。但您仍可以通过正确的URL访问隐藏博文。&lt;/p>
+&lt;h3 id="项目">项目&lt;/h3>
+&lt;p>网站还设有个人项目板块。这个板块采用支持横幅图片的卡片设计。点击卡片可以查看常规博文格式的内容，用于详细解释该项目。&lt;/p>
+&lt;h3 id="摄影">摄影&lt;/h3>
+&lt;p>我还加入了一个摄影板块，采用三列瀑布流设计（如果屏幕足够宽）来展示图片。图片排序为手动设置，图片可以跨越多列以实现最佳视觉布局。&lt;/p>
+&lt;h2 id="改编此网站">改编此网站&lt;/h2>
+&lt;p>您可以通过fork我的
+
+
+ &lt;a href="https://github.com/michaelmyc/michaelmao.me"
+ target="_blank"
+ rel="noopener"
+ >GitHub仓库&lt;/a>轻松改编此网站。&lt;/p>
+&lt;h3 id="移除我的内容">移除我的内容&lt;/h3>
+&lt;p>要清除我的内容，您应该删除&lt;code>content&lt;/code>目录下的所有文件。&lt;/p>
+&lt;p>&lt;code>layouts/_index.html&lt;/code>是主页，您可能需要根据自己的需求进行定制。&lt;/p>
+&lt;p>其他您可能想要定制的内容包括&lt;code>layouts/partials/footer.html&lt;/code>中的页脚，以及&lt;code>static&lt;/code>目录下的favicon、封面图片和CNAME文件。&lt;/p>
+&lt;h3 id="添加您的内容">添加您的内容&lt;/h3>
+&lt;p>网站的大部分内容可以通过&lt;code>config.toml&lt;/code>文件配置。设置应该相当直观。您还应该在&lt;code>static&lt;/code>目录中添加自己的CNAME、封面图片和favicon。&lt;/p>
+&lt;p>要添加特定类型的页面（博客/项目/摄影），使用&lt;code>hugo new [语言]/[类型]/[名称]&lt;/code>命令将根据&lt;code>archetypes&lt;/code>目录中的相关模板在&lt;code>content&lt;/code>文件夹中创建页面。&lt;/p>
+&lt;h3 id="自动部署到github-pages">自动部署到GitHub Pages&lt;/h3>
+&lt;p>该仓库支持使用
+
+
+ &lt;a href="https://docs.github.com/en/actions/using-workflows"
+ target="_blank"
+ rel="noopener"
+ >GitHub Workflows&lt;/a>进行CI。这意味着对仓库的任何推送都会自动构建并发布为GitHub Pages。如果您不使用GitHub Pages托管您的网站，您应该删除&lt;code>.github&lt;/code>文件夹。如果您想将此功能适配到您自己的GitHub Pages，您需要根据您的设置修改&lt;code>.github/workflows/deploy-site.yml&lt;/code>的最后几行：&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/personal-website/gh-workflow_hu_3f14b7b19919798a.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/personal-website/gh-workflow_hu_c4e5df5df8702bde.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/personal-website/gh-workflow_hu_fafa340d46206c12.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/personal-website/gh-workflow.png"
+ alt=''
+ loading="lazy"
+ width="1376"
+ style="aspect-ratio: 1376/402;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">需要更改的配置&lt;/p>
+ 
+&lt;/div>&lt;/p></description></item><item><title>OKAI</title><link>https://michaelmao.me/zh/project/okai/</link><pubDate>Wed, 14 Jun 2023 13:09:25 -0700</pubDate><guid>https://michaelmao.me/zh/project/okai/</guid><description>&lt;p>注：此中文版网页由大模型翻译获得&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/okai/okai_landing_hu_10ae63680f5595f2.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/okai/okai_landing_hu_bf2ce4176b2cc9de.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/okai/okai_landing_hu_c1979a65d803c637.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/okai/okai_landing.png"
+ alt='在多个设备上查看OKAI'
+ loading="lazy"
+ width="2542"
+ style="aspect-ratio: 2542/1630;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">在多个设备上查看OKAI&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;p>链接：
+
+
+ &lt;a href="https://okai.brown.edu"
+ target="_blank"
+ rel="noopener"
+ >网站&lt;/a> &lt;br>
+成员：
+
+
+ &lt;a href="https://majiaju.io"
+ target="_blank"
+ rel="noopener"
+ >Jiaju Ma&lt;/a>, Michael Mao, 
+
+
+ &lt;a href="http://yimeihu.com/"
+ target="_blank"
+ rel="noopener"
+ >Yimei Hu&lt;/a> &lt;br>
+时间：2018年9月 - 2019年5月 &lt;br>
+页面浏览量：160k+ &lt;br>
+用户数：38k+&lt;/p>
+&lt;h2 id="概述">概述&lt;/h2>
+&lt;p>OKAI是人工智能（AI）的交互式入门教程。该项目旨在向计算机科学背景有限或没有背景的更广泛受众揭秘并介绍机器学习和深度学习概念。它利用基于网络的交互式图形和动画来可视化展示在MNIST数据集上简单前馈神经网络分类器的工作原理。&lt;/p>
+&lt;p>我是OKAI的AI专家，负责构思教材内容并撰写了6章中的5章。我还与Jiaju Ma合作构思了更多数学导向的动画概念。&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/okai/okai_chapters_hu_c1d836478d20373f.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/okai/okai_chapters_hu_c737c42493d01691.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/okai/okai_chapters_hu_597693b3d0392dea.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/okai/okai_chapters.png"
+ alt='OKAI章节'
+ loading="lazy"
+ width="3484"
+ style="aspect-ratio: 3484/1383;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">OKAI章节&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;h2 id="使命和方法论">使命和方法论&lt;/h2>
+&lt;p>从《黑客帝国》到《终结者》再到《2001太空漫游》，科幻小说和流行文化中不乏描绘失控的AI威胁人类的情节。我们相信，通过更多地了解最新AI算法的基本原理，人们会更容易接受AI技术。此外，我们希望我们的项目能在新一代学生中激发对AI和计算机科学的好奇心。&lt;/p>
+&lt;p>因此，我们的目标是在不涉及复杂的大学水平数学的情况下解释简单的深度学习概念。为了实现这个目标，我们选择了将交互式图形与简短的解释和日常类比相结合。这有效地避开了线性代数和微积分，展示了简单前馈神经网络的核心数学直觉。&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/okai/okai_index_hu_efe9b90990463575.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/okai/okai_index_hu_f8ed6372e6dacc4a.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/okai/okai_index_hu_c120ec7518bc86fa.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/okai/okai_index.png"
+ alt='OKAI首页'
+ loading="lazy"
+ width="1920"
+ style="aspect-ratio: 1920/975;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">OKAI首页&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;h2 id="uiux设计">UI/UX设计&lt;/h2>
+&lt;p>要了解更多关于UI/UX设计过程的信息，请参阅Jiaju网站上精彩的
+
+
+ &lt;a href="https://majiaju.io/okai"
+ target="_blank"
+ rel="noopener"
+ >项目说明&lt;/a>。&lt;/p></description></item><item><title>DeepSqueeze：表格数据的深度语义压缩</title><link>https://michaelmao.me/zh/project/deepsqueeze/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://michaelmao.me/zh/project/deepsqueeze/</guid><description>&lt;p>注：此中文版网页由大模型翻译获得&lt;/p>
+&lt;p>&lt;div class="image-container">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ &lt;picture class="">
+ 
+ 
+ 
+ 
+ 
+
+ &lt;source media="(max-width:800px)" srcset=/zh/project/deepsqueeze/deepsqueeze-tall_hu_7fc45951e395f7c4.png>
+ &lt;source media="(min-width:800px)" srcset=/zh/project/deepsqueeze/deepsqueeze-tall_hu_f832aad00d802f48.png>
+ &lt;source media="(min-width:1200px)" srcset=/zh/project/deepsqueeze/deepsqueeze-tall_hu_faa7d9f1fc169660.png>
+ &lt;img
+ class="dynamic-image "
+ src="https://michaelmao.me/zh/project/deepsqueeze/deepsqueeze-tall.png"
+ alt='DeepSqueeze架构'
+ loading="lazy"
+ width="2482"
+ style="aspect-ratio: 2482/980;"
+ />
+ 
+ &lt;/picture>
+ 
+
+ 
+ &lt;p class="dark">DeepSqueeze架构&lt;/p>
+ 
+&lt;/div>&lt;/p>
+&lt;h2 id="摘要">摘要&lt;/h2>
+&lt;p>随着大型数据集的快速增长，高效的数据压缩变得比以往任何时候都更加重要。列式压缩技术（如字典编码、游程编码、增量编码）已被证明对表格数据非常有效，但它们通常只压缩单个列，而不考虑列之间可能存在的关系，如函数依赖性和相关性。另一方面，语义压缩技术旨在利用这些关系，仅存储推断其他列所需的列子集，但现有方法无法有效识别跨多个列的复杂关系。&lt;/p>
+&lt;p>我们提出了DeepSqueeze，这是一个新颖的语义压缩框架，它可以通过使用自动编码器将元组映射到低维表示来有效捕获表格数据中的这些复杂关系。DeepSqueeze还支持数值数据有损压缩的误差界限保证，并可与常见的列式压缩格式配合使用。我们的实验评估使用真实世界数据集表明，与发表时下最先进的方案相比，DeepSqueeze可以实现超过4倍的尺寸缩减。&lt;/p></description></item></channel></rss>
