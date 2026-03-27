@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project on Michael Mao</title><link>https://michaelmao.me/project/</link><description>Recent content in Project on Michael Mao</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jun 2023 13:09:28 -0700</lastBuildDate><atom:link href="https://michaelmao.me/project/index.xml" rel="self" type="application/rss+xml"/><item><title>HUSTL</title><link>https://michaelmao.me/project/hustl/</link><pubDate>Wed, 14 Jun 2023 13:09:28 -0700</pubDate><guid>https://michaelmao.me/project/hustl/</guid><description>&lt;p>&lt;div class="image-container">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project on Michael Mao</title><link>https://michaelmao.me/project/</link><description>Recent content in Project on Michael Mao</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jun 2023 13:09:28 -0700</lastBuildDate><atom:link href="https://michaelmao.me/project/index.xml" rel="self" type="application/rss+xml"/><item><title>HUSTL</title><link>https://michaelmao.me/project/hustl/</link><pubDate>Wed, 14 Jun 2023 13:09:28 -0700</pubDate><guid>https://michaelmao.me/project/hustl/</guid><description>&lt;p&gt;&lt;div class="image-container"&gt;
  
  
  
@@ -11,34 +11,34 @@
  
 
  
- &lt;picture class="">
+ &lt;picture class=""&gt;
  
- &lt;video playsinline="" autoplay="" loop="" muted="" class="dynamic-image " src="https://michaelmao.me/project/hustl/hustl.mp4" />
+ &lt;video playsinline="" autoplay="" loop="" muted="" class="dynamic-image " src="https://michaelmao.me/project/hustl/hustl.mp4" /&gt;
  
- &lt;/picture>
+ &lt;/picture&gt;
  
 
  
- &lt;p class="dark">Hyperlapse processed with HUSTL&lt;/p>
+ &lt;p class="dark"&gt;Hyperlapse processed with HUSTL&lt;/p&gt;
  
-&lt;/div>&lt;/p>
-&lt;p>Links: 
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Links: 
 
 
  &lt;a href="https://github.com/michaelmyc/hustl"
  target="_blank"
  rel="noopener"
- >GitHub Repo&lt;/a>, 
+ &gt;GitHub Repo&lt;/a&gt;, 
 
 
  &lt;a href="hustl-writeup.pdf"
  target="_blank"
  rel="noopener"
- >Project Writeup&lt;/a> &lt;br>
-Members: Michael Mao, Jiaju Ma, James Li &lt;br>
-Duration: Spring 2019&lt;/p>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>Making good hyperlapse videos is difficult. It usually requires photographers to take photos between consistent distance intervals and keep the height of the camera and the direction of the lens steady and smooth. Alternatively, they can mount their camera on expensive steadicams or gimbals. To make creating high-quality hyperlapses easier, we present HUSTL (Hyper-Ultra-Super-Time-Lapse), an open source three-stage software pipeline based on the state of the art academic research papers. Our tool allows users to only provide rough hand-held hyperlapse frames to create a smoothed hyperlapse video.&lt;/p></description></item><item><title>Personal Website</title><link>https://michaelmao.me/project/personal-website/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/project/personal-website/</guid><description>&lt;p>&lt;div class="image-container">
+ &gt;Project Writeup&lt;/a&gt; &lt;br&gt;
+Members: Michael Mao, Jiaju Ma, James Li &lt;br&gt;
+Duration: Spring 2019&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Making good hyperlapse videos is difficult. It usually requires photographers to take photos between consistent distance intervals and keep the height of the camera and the direction of the lens steady and smooth. Alternatively, they can mount their camera on expensive steadicams or gimbals. To make creating high-quality hyperlapses easier, we present HUSTL (Hyper-Ultra-Super-Time-Lapse), an open source three-stage software pipeline based on the state of the art academic research papers. Our tool allows users to only provide rough hand-held hyperlapse frames to create a smoothed hyperlapse video.&lt;/p&gt;</description></item><item><title>Personal Website</title><link>https://michaelmao.me/project/personal-website/</link><pubDate>Fri, 07 Oct 2022 00:36:54 -0700</pubDate><guid>https://michaelmao.me/project/personal-website/</guid><description>&lt;p&gt;&lt;div class="image-container"&gt;
  
  
  
@@ -51,16 +51,16 @@ Duration: Spring 2019&lt;/p>
  
 
  
- &lt;picture class="">
+ &lt;picture class=""&gt;
  
  
  
  
  
 
- &lt;source media="(max-width:800px)" srcset=/project/personal-website/website-tall_hu_80df12997beb48ce.png>
- &lt;source media="(min-width:800px)" srcset=/project/personal-website/website-tall_hu_6cc501cd8f70794f.png>
- &lt;source media="(min-width:1200px)" srcset=/project/personal-website/website-tall_hu_592d285e21a2eb1b.png>
+ &lt;source media="(max-width:800px)" srcset=/project/personal-website/website-tall_hu_52b187eaa499b725.png&gt;
+ &lt;source media="(min-width:800px)" srcset=/project/personal-website/website-tall_hu_4c7fe2b96623f613.png&gt;
+ &lt;source media="(min-width:1200px)" srcset=/project/personal-website/website-tall_hu_e970677b8d571f23.png&gt;
  &lt;img
  class="dynamic-image "
  src="https://michaelmao.me/project/personal-website/website-tall.png"
@@ -68,41 +68,41 @@ Duration: Spring 2019&lt;/p>
  loading="lazy"
  width="3576"
  style="aspect-ratio: 3576/1074;"
- />
+ /&gt;
  
- &lt;/picture>
+ &lt;/picture&gt;
  
 
  
- &lt;p class="dark">Home page layout&lt;/p>
+ &lt;p class="dark"&gt;Home page layout&lt;/p&gt;
  
-&lt;/div>&lt;/p>
-&lt;p>Links: 
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Links: 
 
 
  &lt;a href="https://github.com/michaelmyc/michaelmao.me"
  target="_blank"
  rel="noopener"
- >GitHub Repo&lt;/a>, 
+ &gt;GitHub Repo&lt;/a&gt;, 
 
 
- &lt;a href="https://michaelmao.me/blog/example-blogpost">Example Blogpost&lt;/a>&lt;/p>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>This personal website is made from scratch using 
+ &lt;a href="https://michaelmao.me/blog/example-blogpost"&gt;Example Blogpost&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This personal website is made from scratch using 
 
 
  &lt;a href="https://gohugo.io/"
  target="_blank"
  rel="noopener"
- >Hugo&lt;/a> framework. The color scheme is inspired by 
+ &gt;Hugo&lt;/a&gt; framework. The color scheme is inspired by 
 
 
  &lt;a href="https://www.nordtheme.com/"
  target="_blank"
  rel="noopener"
- >Nord theme&lt;/a> and all code blocks uses Nord color scheme. The website is responsive and is designed for both mobile and desktop, and supports both vertical and horizontal screen orientations.&lt;/p>
-&lt;h3 id="home-page-and-blogging">Home Page and Blogging&lt;/h3>
-&lt;p>The website offers a customizable home page or landing page to suit the need of different users.&lt;/p></description></item><item><title>OKAI</title><link>https://michaelmao.me/project/okai/</link><pubDate>Wed, 14 Jun 2023 13:09:25 -0700</pubDate><guid>https://michaelmao.me/project/okai/</guid><description>&lt;p>&lt;div class="image-container">
+ &gt;Nord theme&lt;/a&gt; and all code blocks uses Nord color scheme. The website is responsive and is designed for both mobile and desktop, and supports both vertical and horizontal screen orientations.&lt;/p&gt;
+&lt;h3 id="home-page-and-blogging"&gt;Home Page and Blogging&lt;/h3&gt;
+&lt;p&gt;The website offers a customizable home page or landing page to suit the need of different users.&lt;/p&gt;</description></item><item><title>OKAI</title><link>https://michaelmao.me/project/okai/</link><pubDate>Wed, 14 Jun 2023 13:09:25 -0700</pubDate><guid>https://michaelmao.me/project/okai/</guid><description>&lt;p&gt;&lt;div class="image-container"&gt;
  
  
  
@@ -115,16 +115,16 @@ Duration: Spring 2019&lt;/p>
  
 
  
- &lt;picture class="">
+ &lt;picture class=""&gt;
  
  
  
  
  
 
- &lt;source media="(max-width:800px)" srcset=/project/okai/okai_landing_hu_10ae63680f5595f2.png>
- &lt;source media="(min-width:800px)" srcset=/project/okai/okai_landing_hu_bf2ce4176b2cc9de.png>
- &lt;source media="(min-width:1200px)" srcset=/project/okai/okai_landing_hu_c1979a65d803c637.png>
+ &lt;source media="(max-width:800px)" srcset=/project/okai/okai_landing_hu_ad39474d27865958.png&gt;
+ &lt;source media="(min-width:800px)" srcset=/project/okai/okai_landing_hu_60a5b8be2c439649.png&gt;
+ &lt;source media="(min-width:1200px)" srcset=/project/okai/okai_landing_hu_f83c9a292e7c0d4a.png&gt;
  &lt;img
  class="dynamic-image "
  src="https://michaelmao.me/project/okai/okai_landing.png"
@@ -132,40 +132,40 @@ Duration: Spring 2019&lt;/p>
  loading="lazy"
  width="2542"
  style="aspect-ratio: 2542/1630;"
- />
+ /&gt;
  
- &lt;/picture>
+ &lt;/picture&gt;
  
 
  
- &lt;p class="dark">OKAI viewed on multiple devices&lt;/p>
+ &lt;p class="dark"&gt;OKAI viewed on multiple devices&lt;/p&gt;
  
-&lt;/div>&lt;/p>
-&lt;p>Links: 
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Links: 
 
 
  &lt;a href="https://okai.brown.edu"
  target="_blank"
  rel="noopener"
- >website&lt;/a> &lt;br>
+ &gt;website&lt;/a&gt; &lt;br&gt;
 Members: 
 
 
  &lt;a href="https://majiaju.io"
  target="_blank"
  rel="noopener"
- >Jiaju Ma&lt;/a>, Michael Mao, 
+ &gt;Jiaju Ma&lt;/a&gt;, Michael Mao, 
 
 
  &lt;a href="http://yimeihu.com/"
  target="_blank"
  rel="noopener"
- >Yimei Hu&lt;/a> &lt;br>
-Duration: Sep 2018 - May 2019 &lt;br>
-Pageviews: 160k+ &lt;br>
-Users: 38k+&lt;/p>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>OKAI is an interactive introduction to Artificial Intelligence (AI). The project aims to demystify and introduce machine learning and deep learning concepts to a broader audience with limited or no background in computer science. It utilizes web-based interactive graphics and animations to visualize the working principles of a simple feed-forward neural net classifier on the MNIST dataset.&lt;/p></description></item><item><title>DeepSqueeze: Deep Semantic Compression for Tabular Data</title><link>https://michaelmao.me/project/deepsqueeze/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://michaelmao.me/project/deepsqueeze/</guid><description>&lt;p>&lt;div class="image-container">
+ &gt;Yimei Hu&lt;/a&gt; &lt;br&gt;
+Duration: Sep 2018 - May 2019 &lt;br&gt;
+Pageviews: 160k+ &lt;br&gt;
+Users: 38k+&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;OKAI is an interactive introduction to Artificial Intelligence (AI). The project aims to demystify and introduce machine learning and deep learning concepts to a broader audience with limited or no background in computer science. It utilizes web-based interactive graphics and animations to visualize the working principles of a simple feed-forward neural net classifier on the MNIST dataset.&lt;/p&gt;</description></item><item><title>DeepSqueeze: Deep Semantic Compression for Tabular Data</title><link>https://michaelmao.me/project/deepsqueeze/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://michaelmao.me/project/deepsqueeze/</guid><description>&lt;p&gt;&lt;div class="image-container"&gt;
  
  
  
@@ -178,16 +178,16 @@ Users: 38k+&lt;/p>
  
 
  
- &lt;picture class="">
+ &lt;picture class=""&gt;
  
  
  
  
  
 
- &lt;source media="(max-width:800px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu_7fc45951e395f7c4.png>
- &lt;source media="(min-width:800px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu_f832aad00d802f48.png>
- &lt;source media="(min-width:1200px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu_faa7d9f1fc169660.png>
+ &lt;source media="(max-width:800px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu_656f459007353484.png&gt;
+ &lt;source media="(min-width:800px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu_7c0d1918186e2dc1.png&gt;
+ &lt;source media="(min-width:1200px)" srcset=/project/deepsqueeze/deepsqueeze-tall_hu_71a33e49ddfae802.png&gt;
  &lt;img
  class="dynamic-image "
  src="https://michaelmao.me/project/deepsqueeze/deepsqueeze-tall.png"
@@ -195,16 +195,16 @@ Users: 38k+&lt;/p>
  loading="lazy"
  width="2482"
  style="aspect-ratio: 2482/980;"
- />
+ /&gt;
  
- &lt;/picture>
+ &lt;/picture&gt;
  
 
  
- &lt;p class="dark">Deepsqueeze architecture&lt;/p>
+ &lt;p class="dark"&gt;Deepsqueeze architecture&lt;/p&gt;
  
-&lt;/div>&lt;/p>
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>With the rapid proliferation of large datasets, efficient data compression has become more important than ever. Columnar compression techniques (e.g., dictionary encoding, runlength encoding, delta encoding) have proved highly effective for tabular data, but they typically compress individual columns without considering potential relationships among columns, such as functional dependencies and correlations. Semantic compression techniques, on the other hand, are designed to leverage such relationships to store only a subset
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id="abstract"&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;With the rapid proliferation of large datasets, efficient data compression has become more important than ever. Columnar compression techniques (e.g., dictionary encoding, runlength encoding, delta encoding) have proved highly effective for tabular data, but they typically compress individual columns without considering potential relationships among columns, such as functional dependencies and correlations. Semantic compression techniques, on the other hand, are designed to leverage such relationships to store only a subset
 of the columns necessary to infer the others, but existing approaches cannot effectively identify complex relationships
-across more than a few columns at a time.&lt;/p></description></item></channel></rss>
+across more than a few columns at a time.&lt;/p&gt;</description></item></channel></rss>
